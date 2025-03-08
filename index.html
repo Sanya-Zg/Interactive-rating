@@ -12,31 +12,38 @@
 </head>
 <body>
   <main>
-    
+    <!-- Main block -->
+    <div class="container">
+      <div class="rating__block">
+        <div class="rating__block-icon layout_circle star">
+          <img src="./images/icon-star.svg" class="star-inner">
+        </div>
+        <h1 class="rating__block-ask">How did we do?</h1>
+        <p class="rating__block-desc">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+        <div class="rating__block-num">
+          <button class="layout_circle num_circle" value="1">1</button>
+          <button class="layout_circle num_circle" value="2">2</button>
+          <button class="layout_circle num_circle" value="3">3</button>
+          <button class="layout_circle num_circle" value="4">4</button>
+          <button class="layout_circle num_circle" value="5">5</button>
+        </div>
+        <button type="submit" class="rating__block-sumbit" id="sub">Submit</button>
+      </div>
+      <!-- Thanks block -->
+      <div class="thanks__block">
+        <div class="img_thanks-cont">
+          <img src="./images/illustration-thank-you.svg" class="img_thanks" alt="Thanks picture">
+        </div>
+        <div class="result_rating-cont">
+          <p class="result_rating">You selected <span id="num_rating"></span> out of 5</p>
+        </div>
+        <h2>Thank you!</h2>
+        <p class="result_rating-p">We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!</p>
+      </div>
+    </div>
   </main>
-  <!-- Rating state start -->
-
-  How did we do?
-
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
-
-  1 2 3 4 5
-
-  Submit
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
 
 </body>
 </html>

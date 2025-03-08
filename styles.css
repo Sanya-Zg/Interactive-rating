@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --orange: hsl(25, 97%, 53%);
+    --light-grey: hsl(217, 12%, 63%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --white: hsl(0, 0%, 100%);
+}
+*{
+    box-sizing: border-box;
+}
+p{
+    font-size: 15px;
+    color: var(--light-grey);
+}
+h1, h2{
+    color: var(--white);
+    margin: 0;
+    font-size: 28px;
+}
+p{
+    margin: 0;
+}
+.white{
+    background-color: var(--white) !important;
+}
+body{
+    font-family: "Overpass", sans-serif;
+    background-color: var(--very-dark-blue);
+}
+main{
+    margin: 195px auto;
+    width: 412px;
+    background: radial-gradient(#232A34, #181E27);
+    border-radius: 30px;
+}
+.container{
+    padding: 32px;
+}
+.rating__block {
+    
+}
+.rating__block-icon {
+    width: 48px;
+    height: 48px;
+}
+.layout_circle {
+    background-color: var(--dark-blue);
+    border-radius: 50%;
+    color: var(--light-grey);
+}
+.star-inner{
+    margin: 33%;
+}
+.rating__block-ask {
+    margin-top: 30px;
+}
+.rating__block-desc {
+    line-height: 24px;
+    margin-top: 7px;
+}
+.rating__block-num {
+    margin-top: 24px;
+    display: flex;
+    gap: 21px;
+}
+.num_circle:hover{
+    background-color: var(--orange);
+    color: var(--dark-blue);
+}
+.num_circle{
+    width: 51px;
+    height: 51px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.2s linear;
+}
+.rating__block-sumbit {
+    width: 100%;
+    height: 45px;
+    border-radius: 23px;
+    margin-top: 32px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--very-dark-blue);
+    background-color: var(--orange);
+    font-weight: 700;
+    transition: all 0.2s linear;
+}
+.rating__block-sumbit:hover{
+    background-color: var(--white);
+}
+.thanks__block {
+    display: none;
+}
+.img_thanks-cont {
+    margin-top: 13px;
+    text-align: center;
+    height: 108px;
+}
+.result_rating-cont{
+    width: 193px;
+    margin: 32px auto 0;
+    border-radius: 23px;
+    background-color: var(--dark-blue);
+    padding: 5px 0;
+}
+.img_thanks {
+}
+.result_rating {
+    text-align: center;
+    color: var(--orange);
+}
+h2{
+    text-align: center;
+    margin-top: 32px;
+    line-height: 35px;
+}
+.result_rating-p{
+    text-align: center;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-bottom: 13px;
+    width: 340px;
+}
