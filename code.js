@@ -14,6 +14,7 @@ buttons.forEach(button => {
 })
 
 submit.addEventListener('click', () => {
+    if (selecRating == null) return;
     mainBlock.style.display = 'none';
     thanksBlock.style.display = 'block';
     numRating.textContent = selecRating;
